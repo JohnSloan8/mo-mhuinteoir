@@ -2,11 +2,11 @@ import isMobile from '@/utils/is-mobile';
 
 import type { Notifications } from './types';
 
-const title = 'React PWA';
+const title = "John's Starter";
 
-const email = 'auther-email@gmail.com';
+const email = 'johnsloan1984@gmail.com';
 
-const repository = 'https://github.com/suren-atoyan/react-pwa';
+const repository = 'https://github.com/JohnSloan8/JohnsStarter';
 
 const messages = {
   app: {
@@ -24,10 +24,10 @@ const messages = {
   images: {
     failed: 'something went wrong during image loading :(',
   },
-  404: 'Hey bro? What are you looking for?',
+  404: 'Nothing Here',
 };
 
-const dateFormat = 'MMMM DD, YYYY';
+const dateFormat = 'DD MMM YYYY';
 
 const notifications: Notifications = {
   options: {
@@ -48,7 +48,7 @@ const loader = {
 
 const defaultMetaTags = {
   image: '/cover.png',
-  description: 'Starter kit for modern web applications',
+  description: 'React PWA Starter',
 };
 const giphy404 = 'https://giphy.com/embed/xTiN0L7EW5trfOvEk0';
 
